@@ -29,7 +29,7 @@ pipeline
             steps
             {
                 git 'https://github.com/vinayagarwal5/FunctionalTesting.git'
-                sh 'java -jar /var/lib/jenkins/workspace/DeclarativePipeline1/testing.jar'
+                sh 'java -jar /var/lib/jenkins/workspace/Declarative Pipeline1/testing.jar'
             }
         }
         stage('ContDelivery')
